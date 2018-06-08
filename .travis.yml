@@ -20,3 +20,5 @@ deploy:
   script: docker push keysoutsourcedocker/exampleapplication
   on:
     branch: master
+
+    
