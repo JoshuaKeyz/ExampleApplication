@@ -4,8 +4,8 @@ services:
 
 env:
   global:
-    - REGISTRY_USER = "keysoutsourcedocker"
-    - REGISTRY_PASS = "Loveisblind2\\@2\\*" 
+    - REGISTRY_USER = keysoutsourcedocker
+    - REGISTRY_PASS = Loveisblind2\\@2\\*
     - secret: "myrobot"
 script:
   - docker build --tag keysoutsourcedocker/exampleapplication .
